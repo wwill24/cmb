@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_1">
+    <ImageView android:gravity="center_vertical" android:id="@+id/premium_feature_image" android:layout_marginBottom="@dimen/spacer_1" android:contentDescription="@string/bean_shop_subscription_image_description" android:layout_marginStart="@dimen/spacer_2" style="@style/subscription_item_image"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center_vertical" android:id="@+id/premium_feature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_1" android:layout_marginStart="@dimen/spacer_2" style="@style/benefits_white_400"/>
+</LinearLayout>

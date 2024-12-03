@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bundle_names" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:gravity="center" android:id="@+id/second_bundle_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="76dp" android:minHeight="40dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/bold_main_500"/>
+    <TextView android:gravity="center" android:id="@+id/first_bundle_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="76dp" android:minHeight="40dp" android:layout_centerVertical="true" android:layout_toStartOf="@+id/second_bundle_name" style="@style/bold_dark_500"/>
+    <View android:id="@+id/partial_profile_holder_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

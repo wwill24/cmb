@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="8dp">
+    <View android:id="@+id/shadow" android:background="#aa000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0" android:importantForAccessibility="no"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:background="@drawable/pi2_bottom_sheet" android:padding="@dimen/startEndMargin" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:elevation="1dp" app:behavior_hideable="true" app:behavior_peekHeight="0dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="16dp" app:layout_constraintBottom_toTopOf="@+id/prompt" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2"/>
+                    <TextView android:id="@+id/prompt" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="16dp" app:layout_constraintBottom_toTopOf="@+id/illustration" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/title"/>
+                    <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@+id/illustration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" app:layout_constraintBottom_toTopOf="@+id/tips" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/prompt" app:lottie_rawRes="@raw/pi2_capture_tips_lottie"/>
+                    <TextView android:id="@+id/tips" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/illustration"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+            <Button android:id="@+id/button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2" android:layout_marginBottom="@dimen/spacer_2" style="@style/medium_dark_400"/>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/fragment_my_profile_disclaimer_list_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/fragment_my_profile_disclaimer_textview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_1" style="@style/regular_gray_100"/>
+    </LinearLayout>
+</ScrollView>

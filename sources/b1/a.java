@@ -1,0 +1,42 @@
+package b1;
+
+public final class a {
+    public static final int action_container = 2131296319;
+    public static final int action_divider = 2131296321;
+    public static final int action_image = 2131296323;
+    public static final int action_text = 2131296330;
+    public static final int actions = 2131296331;
+    public static final int async = 2131296376;
+    public static final int blocking = 2131296428;
+    public static final int bottom = 2131296436;
+    public static final int chronometer = 2131296529;
+    public static final int dataBinding = 2131296655;
+    public static final int end = 2131296782;
+    public static final int forever = 2131296868;
+    public static final int icon = 2131296960;
+    public static final int icon_group = 2131296963;
+    public static final int info = 2131297035;
+    public static final int italic = 2131297060;
+    public static final int left = 2131297078;
+    public static final int line1 = 2131297096;
+    public static final int line3 = 2131297097;
+    public static final int none = 2131297287;
+    public static final int normal = 2131297288;
+    public static final int notification_background = 2131297292;
+    public static final int notification_main_column = 2131297295;
+    public static final int notification_main_column_container = 2131297296;
+    public static final int right = 2131297505;
+    public static final int right_icon = 2131297508;
+    public static final int right_side = 2131297509;
+    public static final int start = 2131297670;
+    public static final int tag_transition_group = 2131297738;
+    public static final int tag_unhandled_key_event_manager = 2131297739;
+    public static final int tag_unhandled_key_listeners = 2131297740;
+    public static final int text = 2131297745;
+    public static final int text2 = 2131297746;
+    public static final int time = 2131297838;
+    public static final int title = 2131297844;
+    public static final int top = 2131297853;
+    public static final int view_tree_lifecycle_owner = 2131297940;
+    public static final int view_tree_view_model_store_owner = 2131297943;
+}

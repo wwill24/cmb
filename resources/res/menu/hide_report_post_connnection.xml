@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/report" android:title="@string/report_post_connection_cta_title"/>
+    <item android:id="@+id/hide" android:title="@string/hide_post_connection_cta_title"/>
+</menu>

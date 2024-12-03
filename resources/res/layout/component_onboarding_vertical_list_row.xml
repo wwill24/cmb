@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/bio_details_table">
+    <LinearLayout android:orientation="vertical" style="@style/bio_details_row_left">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/name" style="@style/bio_details_row_label"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/value" android:layout_marginTop="@dimen/baseline_half" style="@style/bio_details_row_value"/>
+    </LinearLayout>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView style="@style/bio_details_row_dealbreaker"/>
+</TableRow>

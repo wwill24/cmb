@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <group>
+        <path android:fillColor="?attr/main_color" android:pathData="M18.5825,10.5925 L7.4125,10.5925 L12.2925,5.7125 C12.6825,5.3225 12.6825,4.6825 12.2925,4.2925 C11.9025,3.9025 11.2725,3.9025 10.8825,4.2925 L4.2925,10.8825 C3.9025,11.2725 3.9025,11.9025 4.2925,12.2925 L10.8825,18.8825 C11.2725,19.2725 11.9025,19.2725 12.2925,18.8825 C12.6825,18.4925 12.6825,17.8625 12.2925,17.4725 L7.4125,12.5925 L18.5825,12.5925 C19.1325,12.5925 19.5825,12.1425 19.5825,11.5925 C19.5825,11.0425 19.1325,10.5925 18.5825,10.5925 Z" android:strokeWidth="1" android:fillType="1"/>
+        <path android:fillColor="?attr/main_color" android:pathData="M18.5825,10.5925 L7.4125,10.5925 L12.2925,5.7125 C12.6825,5.3225 12.6825,4.6825 12.2925,4.2925 C11.9025,3.9025 11.2725,3.9025 10.8825,4.2925 L4.2925,10.8825 C3.9025,11.2725 3.9025,11.9025 4.2925,12.2925 L10.8825,18.8825 C11.2725,19.2725 11.9025,19.2725 12.2925,18.8825 C12.6825,18.4925 12.6825,17.8625 12.2925,17.4725 L7.4125,12.5925 L18.5825,12.5925 C19.1325,12.5925 19.5825,12.1425 19.5825,11.5925 C19.5825,11.0425 19.1325,10.5925 18.5825,10.5925 Z" android:strokeWidth="1" android:fillType="1"/>
+    </group>
+</vector>

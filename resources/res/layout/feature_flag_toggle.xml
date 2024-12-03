@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.feature_flag_toggle.interactor.FeatureFlagToggleView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_xxxsmall">
+        <EditText android:id="@+id/feature_flag_search_field" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <Button android:id="@+id/feature_flag_clear_search_button" android:background="@drawable/ic_clear" android:layout_width="@dimen/clear_button_size" android:layout_height="@dimen/clear_button_size"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/feature_flag_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.coffeemeetsbagel.feature_flag_toggle.interactor.FeatureFlagToggleView>

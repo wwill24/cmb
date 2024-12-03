@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/label_interests" style="@style/medium_dark_300"/>
+    <com.google.android.material.chip.ChipGroup android:id="@+id/profile_chips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:chipSpacing="0dp" app:singleLine="false"/>
+    <include layout="@layout/divider"/>
+</LinearLayout>

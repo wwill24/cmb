@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.feature.likepassflow.RowItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/transparent" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/items" android:layout_weight="1" style="@style/medium_gray_400"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/imageView_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?attr/accent_color" app:srcCompat="@drawable/ic_done_black" app:tint="?attr/accent_color"/>
+</com.coffeemeetsbagel.feature.likepassflow.RowItemView>

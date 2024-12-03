@@ -1,0 +1,4 @@
+package ik;
+
+class b {
+}

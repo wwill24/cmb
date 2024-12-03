@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/content_main" android:background="@drawable/rounded_rectangle_very_light_gray" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:paddingHorizontal="16dp">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="20sp" android:textStyle="bold" android:id="@+id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="16sp" android:textStyle="bold" android:id="@+id/total_price" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="16sp" android:id="@+id/price_compare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4dp" app:layout_constraintEnd_toStartOf="@+id/total_price" app:layout_constraintTop_toTopOf="0"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="16sp" android:id="@+id/monthly_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/duration"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="16sp" android:id="@+id/billing_cycle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="-36dp" android:layout_marginEnd="-36dp">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/recommended_variant_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/premium_upsell_recommended" android:layout_alignParentStart="true" style="@style/variant_pill_style"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/on_sale_variant_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/premium_upsell_on_sale" android:layout_alignParentEnd="true" style="@style/variant_pill_style"/>
+    </RelativeLayout>
+</FrameLayout>

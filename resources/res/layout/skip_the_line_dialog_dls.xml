@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/rounded_solid_white_12dp" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/baseline_3x" android:layout_marginRight="@dimen/baseline_3x" android:layout_marginHorizontal="@dimen/baseline_3x">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_4" android:layout_marginBottom="@dimen/spacer_2">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/subtract_flower" android:background="@drawable/circle_gray_light_dls" android:layout_width="@dimen/profile_flag_icon_length" android:layout_height="@dimen/profile_flag_icon_length">
+            <ImageView android:layout_gravity="center" android:id="@+id/minus_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_minus" app:tint="@color/main_color"/>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/flowers" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/flowers_next" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/add_flower" android:background="@drawable/circle_gray_light_dls" android:layout_width="@dimen/profile_flag_icon_length" android:layout_height="@dimen/profile_flag_icon_length">
+            <ImageView android:layout_gravity="center" android:id="@+id/plus_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_plus" app:tint="@color/main_color"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:textColor="@color/text_51" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/get_seen_faster_cap_first_letters" style="@style/bold_600"/>
+    <TextView android:gravity="center" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:minLines="2" style="@style/regular_gray_400"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/buy_button" android:background="@drawable/primary_button_background_dls" android:paddingTop="@dimen/corner_radius" android:paddingBottom="@dimen/corner_radius" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_1">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip_the_line_button_text_dls" android:layout_marginEnd="@dimen/four_dp" style="@style/medium_white_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/left_parentheses" style="@style/medium_white_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/cost" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/medium_white_400"/>
+        <ImageView android:id="@+id/bean_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_bean_blue" app:tint="@color/white"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/right_parentheses" style="@style/medium_white_400"/>
+    </LinearLayout>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_cta" android:background="@drawable/dialog_secondary_button_background_dls" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/subscribe_for_more" android:backgroundTint="@color/gray_background" style="@style/medium_main_400"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/dismiss_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/no_thanks" style="@style/medium_main_400"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.cmb_views.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/old_gray" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/margin_xxsmall">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@+id/shimmer_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <com.coffeemeetsbagel.cmb_views.ForegroundImageView android:layout_gravity="center" android:id="@+id/my_photo_item" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:com.coffeemeetsbagel.foreground="@drawable/ripple_custom"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</com.coffeemeetsbagel.cmb_views.SquareFrameLayout>

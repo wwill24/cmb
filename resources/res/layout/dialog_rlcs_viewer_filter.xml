@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/width_dialog" android:layout_height="wrap_content">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_xxsmall" android:text="@string/choose_tags_to_filter_by_title"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="@dimen/rlcs_viewer_filters_scroll_height">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_filters" android:paddingTop="@dimen/margin_xsmall" android:paddingBottom="@dimen/margin_xsmall" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_vertical" android:id="@+id/textView_button_left" android:background="@drawable/ripple_rounded_rectangle_stroke_gray" android:layout_width="wrap_content" android:layout_height="@dimen/height_button" android:text="@string/cancel_caps"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_vertical" android:id="@+id/textView_button_right" android:background="@drawable/ripple_rounded_rectangle_stroke_gray" android:layout_width="wrap_content" android:layout_height="@dimen/height_button" android:text="@string/filter_caps"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.cmb_views.CmbEditText android:textColorHint="@color/gray" android:gravity="top" android:id="@+id/editText_caption" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/caption_hint" android:lines="4" android:inputType="textMultiLine" style="@style/regular_dark_400"/>
+    <ImageView android:id="@+id/imageView_photo_caption" android:layout_width="@dimen/photo_size_large" android:layout_height="@dimen/photo_size_large" android:layout_below="@+id/editText_caption" android:layout_alignParentEnd="true"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_chars_remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/imageView_photo_caption" android:layout_marginEnd="@dimen/spacer_1" android:layout_toStartOf="@+id/imageView_photo_caption" style="@style/regular_gray_300"/>
+</RelativeLayout>

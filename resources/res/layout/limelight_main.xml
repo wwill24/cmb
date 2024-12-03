@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/tabs_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabTextAppearance="@style/TextAppearance.Widget.TabWidget">
+            <com.google.android.material.tabs.TabItem android:layout="@layout/likes_you_tabs" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.google.android.material.tabs.TabItem android:layout="@layout/likes_you_tabs" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </com.google.android.material.tabs.TabLayout>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout_v2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabMode="0" app:tabTextAppearance="@style/TextAppearance.Widget.TabWidget"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/likes_you_container" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tabs_container"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/loader" android:visibility="gone" android:layout_width="@dimen/spacer_5" android:layout_height="@dimen/spacer_5" android:indeterminateTint="@color/main_color" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

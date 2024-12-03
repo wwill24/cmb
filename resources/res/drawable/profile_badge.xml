@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <solid android:color="@color/accent_color"/>
+    <size android:height="@dimen/spacer_1" android:width="@dimen/spacer_1"/>
+    <stroke android:width="@dimen/two_dp" android:color="@color/white"/>
+</shape>

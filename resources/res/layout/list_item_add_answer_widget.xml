@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/add_prompt_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="16dp" app:cardElevation="2dp" app:contentPadding="32dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/ic_post_add" app:tint="@color/main_color"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="20sp" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/prompt_add_widget_title_empty" style="@style/bold_gray_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textColor="@color/unselected_input_gray" android:gravity="center_horizontal" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/prompt_add_widget_desc_empty"/>
+        <com.coffeemeetsbagel.cmb_views.CmbButton android:layout_gravity="center_horizontal" android:id="@+id/add_prompt_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="0dp" android:text="@string/prompt_add_a_prompt" android:paddingStart="32dp" android:paddingEnd="32dp" style="@style/main_button"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

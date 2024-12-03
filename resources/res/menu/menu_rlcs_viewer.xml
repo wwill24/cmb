@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_discoverfilter" android:id="@+id/menu_item_filter" app:showAsAction="always"/>
+    <item android:id="@+id/menu_item_change_num_cached_lines"/>
+    <item android:id="@+id/menu_item_auto_scroll"/>
+</menu>

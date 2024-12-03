@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/education_container" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/onboarding_title_education" style="@style/medium_dark_400"/>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_marginBottom="@dimen/spacer_1"/>
+        <RelativeLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.DelayAutoCompleteTextView android:textColorHint="@color/gray" android:id="@+id/editText_school1" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/enter_school_name" style="@style/medium_dark_400"/>
+            <ProgressBar android:id="@+id/educationfragment_schools_autocomplete_loading_indicator1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?android:attr/progressBarStyleSmall"/>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbEditText android:textColorHint="@color/gray" android:id="@+id/degree1_text_view" android:background="@null" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/label_degree" style="@style/medium_dark_400"/>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_3">
+            <com.coffeemeetsbagel.cmb_views.DelayAutoCompleteTextView android:textColorHint="@color/gray" android:id="@+id/editText_school2" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/enter_school_name" style="@style/medium_dark_400"/>
+            <ProgressBar android:id="@+id/educationfragment_schools_autocomplete_loading_indicator2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?android:attr/progressBarStyleSmall"/>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbEditText android:textColorHint="@color/gray" android:id="@+id/degree2_text_view" android:background="@null" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/label_degree" style="@style/medium_dark_400"/>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

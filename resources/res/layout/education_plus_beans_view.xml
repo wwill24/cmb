@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.feature.education.EducationPlusBeansView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/education_share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_large" android:text="@string/share_education_helps" style="@style/regular_gray_300"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="@dimen/text_med" android:textColor="@color/hot_pink" android:gravity="right" android:id="@+id/education_beans_incentive_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/plus_fifty"/>
+</com.coffeemeetsbagel.feature.education.EducationPlusBeansView>

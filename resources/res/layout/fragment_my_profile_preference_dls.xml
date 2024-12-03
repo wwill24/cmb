@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout_my_profile_preference_container" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/onboarding_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/what_do_you_like" style="@style/medium_dark_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/onboarding_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/what_do_you_like_explanation" style="@style/regular_gray_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/i_am_looking_for" style="@style/regular_gray_400"/>
+        <LinearLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2" style="@style/bimodal_selector_dls">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/my_profile_preference_women" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/women" android:layout_weight="1" style="@style/bimodal_selector_item_dls"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/my_profile_preference_men" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/men" android:layout_weight="1" style="@style/bimodal_selector_item_dls"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/my_profile_preference_both" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/both" android:layout_weight="1" style="@style/bimodal_selector_item_dls"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_profile_preference_agerange_label" style="@style/regular_gray_400"/>
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/customTextView_my_profile_preference_agerange_value" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/regular_dark_400"/>
+            </LinearLayout>
+            <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_age" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:tickEnd="@integer/max_age" app:tickStart="@integer/min_age" style="@style/rangebar_dls"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height_range" style="@style/regular_gray_400"/>
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/textView_height_value" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/regular_dark_400"/>
+            </LinearLayout>
+            <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_height" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:tickEnd="@integer/max_height_centimeters" app:tickStart="@integer/min_height_centimeters" style="@style/rangebar_dls"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_profile_preference_matchradius_label" style="@style/regular_gray_400"/>
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:id="@+id/customTextView_my_profile_preference_matchradius_value" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/regular_dark_400"/>
+            </LinearLayout>
+            <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_distance" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:rangeBar="false" app:tickEnd="7" app:tickStart="0" style="@style/rangebar_with_ticks_dls"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/my_profile_preference_advanced_religion_label" android:layout_weight="35" style="@style/regular_gray_400"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="65">
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:ellipsize="end" android:id="@+id/textView_religion" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/regular_dark_400"/>
+                <View android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="@dimen/one_dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/my_profile_preference_advanced_ethnicity_label" android:layout_weight="35" style="@style/regular_gray_400"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="65">
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:ellipsize="end" android:id="@+id/textView_ethnicity" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/regular_dark_400"/>
+                <View android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="@dimen/one_dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ViewStub android:id="@+id/match_prefs_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/baseline_3x"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/fragment_my_profile_prefs_disclaimer_textview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xxsmall" style="@style/regular_gray_300"/>
+    </LinearLayout>
+</ScrollView>

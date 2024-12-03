@@ -1,0 +1,433 @@
+0:46 androidx.lifecycle:lifecycle-runtime-ktx
+47:47 org.jetbrains.kotlinx:kotlinx-coroutines-core
+95:46 androidx.databinding:databinding-ktx
+142:46 androidx.lifecycle:lifecycle-livedata-core
+189:46 androidx.arch.core:core-common
+236:46 androidx.databinding:viewbinding
+283:46 androidx.databinding:databinding-adapters
+330:46 androidx.startup:startup-runtime
+377:46 androidx.databinding:databinding-runtime
+424:46 androidx.lifecycle:lifecycle-common
+471:46 org.jetbrains.kotlin:kotlin-stdlib-jdk7
+518:47 org.jetbrains.kotlinx:kotlinx-coroutines-android
+566:46 org.jetbrains:annotations
+613:46 androidx.databinding:databinding-common
+660:46 org.jetbrains.kotlin:kotlin-stdlib
+707:46 androidx.lifecycle:lifecycle-livedata
+754:46 org.jetbrains.kotlin:kotlin-stdlib-common
+801:46 androidx.lifecycle:lifecycle-process
+848:46 androidx.annotation:annotation
+895:46 androidx.lifecycle:lifecycle-viewmodel
+942:46 androidx.lifecycle:lifecycle-runtime
+989:46 org.jetbrains.kotlin:kotlin-stdlib-jdk8
+1036:47 org.jetbrains.kotlinx:atomicfu
+1084:46 androidx.arch.core:core-runtime
+1131:46 androidx.lifecycle:lifecycle-service
+1178:50 io.sentry:sentry-android
+1229:46 com.google.firebase:firebase-components
+1276:46 io.reactivex.rxjava2:rxkotlin
+1323:46 com.siftscience:sift-android
+1370:46 org.igniterealtime.smack:smack-experimental
+1417:47 com.google.android.recaptcha:recaptcha
+1465:46 androidx.room:room-testing
+1512:46 androidx.savedstate:savedstate
+1559:47 com.google.android.gms:play-services-ads-identifier
+1607:10694 AndroidX lifecycle common library
+12302:10694 AndroidX lifecycle livedatacore library
+22997:10694 AndroidX lifecycle runtime library
+33692:1096 Animal Sniffer
+34789:1892 Checker Framework Annotations
+36682:1125 Checker Framework Utilities
+37808:11357 Error Prone
+49166:11358 Guava JDK5
+60525:11362 Guava JDK7
+71888:11358 J2ObjC
+83247:1602 JSR 305
+84850:11358 JSpecify
+96209:11307 JsInterop Annotations
+107517:11358 SafeParcelable library
+118876:10695 apksig
+129572:47 com.google.android.gms:play-services-auth-base
+129620:10691 AndroidX annotation experimental library
+140312:10694 AndroidX tracing library
+151007:11358 Google Auto
+162366:11358 JSR 250
+173725:11365 JSR 330
+185091:103081 Kotlin
+288173:11357 Kotlin coroutines
+299531:1732 Protocol Buffers for Java
+301264:11358 Tink
+312623:11356 kotlinx_atomicfu
+323980:47 com.squareup.leakcanary:leakcanary-android-core
+324028:47 com.squareup.leakcanary:shark-hprof
+324076:46 androidx.work:work-runtime
+324123:46 androidx.test.espresso:espresso-idling-resource
+324170:46 androidx.test.uiautomator:uiautomator
+324217:46 androidx.documentfile:documentfile
+324264:46 org.minidns:minidns-client
+324311:46 com.google.firebase:firebase-installations
+324358:46 org.igniterealtime.smack:smack-im
+324405:47 com.google.android.gms:play-services-cloud-messaging
+324453:46 androidx.core:core-ktx
+324500:46 androidx.lifecycle:lifecycle-livedata-core-ktx
+324547:70 com.facebook.android:facebook-core
+324618:46 org.jxmpp:jxmpp-util-cache
+324665:46 com.appyvet:materialrangebar
+324712:47 com.google.dagger:dagger-android
+324760:47 org.jetbrains.kotlinx:kotlinx-coroutines-play-services
+324808:46 androidx.test:core
+324855:70 com.facebook.android:facebook-common
+324926:46 org.igniterealtime.smack:smack-core
+324973:70 com.facebook.android:facebook-android-sdk
+325044:46 androidx.loader:loader
+325091:46 androidx.collection:collection-ktx
+325138:46 androidx.cursoradapter:cursoradapter
+325185:46 com.google.firebase:firebase-common
+325232:47 com.google.firebase:firebase-analytics
+325280:70 com.facebook.android:facebook-login
+325351:46 com.mparticle:android-core
+325398:46 androidx.datastore:datastore-preferences
+325445:47 com.google.android.gms:play-services-stats
+325493:46 androidx.room:room-runtime
+325540:46 com.leanplum:leanplum-push
+325587:47 com.google.firebase:firebase-auth-interop
+325635:11357 Firebase
+336993:46 androidx.test.espresso:espresso-core
+337040:46 androidx.cardview:cardview
+337087:47 com.google.android.gms:play-services-tasks
+337135:10694 AndroidX architecture core common library
+347830:10694 AndroidX architecture core runtime library
+358525:49 org.reactivestreams:reactive-streams
+358575:46 com.google.code.findbugs:jsr305
+358622:46 androidx.concurrent:concurrent-futures
+358669:46 androidx.annotation:annotation-experimental
+358716:47 com.squareup.leakcanary:leakcanary-android-utils
+358764:47 com.google.dagger:dagger
+358812:46 org.igniterealtime.smack:smack-xmlparser-xpp3
+358859:46 com.squareup.retrofit2:converter-gson
+358906:46 androidx.interpolator:interpolator
+358953:70 com.facebook.android:facebook-gamingservices
+359024:46 androidx.sqlite:sqlite
+359071:46 androidx.legacy:legacy-support-v4
+359118:46 androidx.sqlite:sqlite-framework
+359165:46 androidx.test:runner
+359212:46 androidx.recyclerview:recyclerview
+359259:46 com.mparticle:android-googleanalyticsfirebase-kit
+359306:46 org.igniterealtime.smack:smack-extensions
+359353:46 androidx.viewpager2:viewpager2
+359400:46 com.google.firebase:firebase-installations-interop
+359447:47 com.google.firebase:firebase-measurement-connector
+359495:11342 FlatBuffers
+370838:47 com.android.billingclient:billing
+370886:47 com.google.android.gms:play-services-oss-licenses
+370934:11365 absl
+382300:11358 safeparcel
+393659:11342 flatbuffers
+405002:680 STL
+405683:1732 Protobuf Nano
+407416:42 net.zetetic:android-database-sqlcipher
+407459:46 androidx.lifecycle:lifecycle-viewmodel-ktx
+407506:70 com.facebook.android:facebook-share
+407577:46 io.reactivex.rxjava2:rxjava
+407624:46 androidx.browser:browser
+407671:50 org.hsluv:hsluv
+407722:46 androidx.dynamicanimation:dynamicanimation
+407769:46 com.jakewharton.rxrelay2:rxrelay
+407816:46 com.withpersona.sdk2:inquiry-resources
+407863:46 androidx.appcompat:appcompat-resources
+407910:46 com.google.firebase:firebase-appcheck-interop
+407957:47 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
+408005:46 androidx.localbroadcastmanager:localbroadcastmanager
+408052:46 org.minidns:minidns-hla
+408099:46 com.google.errorprone:error_prone_annotations
+408146:46 androidx.arch.core:core-testing
+408193:46 androidx.room:room-migration
+408240:46 org.igniterealtime.smack:smack-android
+408287:46 androidx.viewpager:viewpager
+408334:46 com.github.skydoves:balloon
+408381:46 org.jxmpp:jxmpp-core
+408428:47 com.squareup.leakcanary:leakcanary-object-watcher-android-androidx
+408476:46 com.leanplum:leanplum-core
+408523:46 com.google.firebase:firebase-perf
+408570:46 com.squareup.retrofit2:retrofit
+408617:46 com.uber.autodispose:autodispose-android-archcomponents
+408664:43 org.hamcrest:hamcrest
+408708:43 com.airbnb.android:lottie
+408752:47 com.squareup.leakcanary:shark-android
+408800:46 androidx.test.services:storage
+408847:47 com.squareup.leakcanary:leakcanary-object-watcher-android
+408895:46 com.google.firebase:firebase-encoders
+408942:47 com.google.android.gms:play-services-auth
+408990:1558 chrome_sync
+410549:52 org.mockito:mockito-android
+410602:53 com.imgix:imgix-java
+410656:46 androidx.datastore:datastore
+410703:46 androidx.swiperefreshlayout:swiperefreshlayout
+410750:46 androidx.test.espresso:espresso-web
+410797:46 com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework
+410844:46 org.jetbrains.kotlin:kotlin-android-extensions-runtime
+410891:47 com.google.android.gms:play-services-measurement
+410939:1125 checker_framework_util
+412065:11358 gsfclient
+423424:46 com.google.firebase:protolite-well-known-types
+423471:47 com.google.android.gms:play-services-measurement-sdk-api
+423519:43 org.hamcrest:hamcrest-core
+423563:46 org.minidns:minidns-dnssec
+423610:46 com.google.firebase:firebase-encoders-json
+423657:46 com.google.firebase:firebase-config
+423704:47 com.google.firebase:firebase-iid-interop
+423752:47 com.squareup.leakcanary:leakcanary-object-watcher-android-core
+423800:46 org.igniterealtime.smack:smack-resolver-minidns
+423847:47 com.squareup.leakcanary:shark
+423895:52 org.mockito:mockito-core
+423948:46 com.uber.autodispose:autodispose
+423995:42 com.github.PhilJay:MPAndroidChart
+424038:46 org.igniterealtime.smack:smack-xmlparser
+424085:46 org.igniterealtime.smack:smack-android-extensions
+424132:46 com.mparticle:android-kit-base
+424179:50 io.sentry:sentry-android-core
+424230:46 androidx.room:room-common
+424277:47 com.google.android.gms:play-services-analytics
+424325:46 androidx.savedstate:savedstate-ktx
+424372:47 com.google.android.gms:play-services-measurement-sdk
+424420:47 org.jetbrains.kotlinx:kotlinx-coroutines-reactive
+424468:46 com.squareup.okio:okio
+424515:46 com.google.android.datatransport:transport-api
+424562:40 org.bouncycastle:bcprov-jdk15to18
+424603:46 com.uber.autodispose:autodispose-lifecycle
+424650:46 androidx.versionedparcelable:versionedparcelable
+424697:50 io.sentry:sentry-android-ndk
+424748:46 com.google.firebase:firebase-database
+424795:41 junit:junit
+424837:46 androidx.media:media
+424884:70 com.facebook.android:facebook-messenger
+424955:46 androidx.fragment:fragment-testing
+425002:47 com.google.android.gms:play-services-measurement-impl
+425050:46 androidx.vectordrawable:vectordrawable-animated
+425097:46 com.google.firebase:firebase-database-collection
+425144:46 androidx.appcompat:appcompat
+425191:46 org.igniterealtime.smack:smack-tcp
+425238:47 com.android.installreferrer:installreferrer
+425286:63 com.facebook.shimmer:shimmer
+425350:46 com.google.firebase:firebase-datatransport
+425397:47 org.jetbrains.kotlinx:kotlinx-coroutines-rx2
+425445:46 com.squareup.retrofit2:adapter-rxjava2
+425492:46 androidx.coordinatorlayout:coordinatorlayout
+425539:46 org.minidns:minidns-core
+425586:47 com.google.android.gms:play-services-fido
+425634:46 androidx.vectordrawable:vectordrawable
+425681:47 com.google.dagger:dagger-android-support
+425729:46 com.mparticle:android-leanplum-kit
+425776:47 com.google.android.gms:play-services-measurement-base
+425824:46 androidx.legacy:legacy-support-core-utils
+425871:42 com.github.chrisbanes:PhotoView
+425914:46 com.withpersona.sdk2:inquiry
+425961:46 com.google.firebase:firebase-annotations
+426008:46 androidx.fragment:fragment-ktx
+426055:46 javax.inject:javax.inject
+426102:46 com.mparticle:android-appsflyer-kit
+426149:64 com.google.android.play:integrity
+426214:54 com.facebook.stetho:stetho
+426269:46 androidx.test.espresso:espresso-contrib
+426316:46 androidx.customview:customview
+426363:46 org.minidns:minidns-iterative-resolver
+426410:46 com.google.firebase:firebase-abt
+426457:47 com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments
+426505:46 androidx.datastore:datastore-preferences-core
+426552:46 androidx.print:print
+426599:46 org.igniterealtime.smack:smack-openpgp
+426646:46 org.jxmpp:jxmpp-jid
+426693:46 androidx.annotation:annotation-jvm
+426740:46 androidx.test:monitor
+426787:46 org.igniterealtime.smack:smack-streammanagement
+426834:46 androidx.core:core
+426881:46 com.google.firebase:firebase-common-ktx
+426928:47 com.google.android.gms:play-services-basement
+426976:46 androidx.slidingpanelayout:slidingpanelayout
+427023:70 com.facebook.android:facebook-bolts
+427094:46 androidx.fragment:fragment
+427141:46 com.uber.autodispose:autodispose-android-archcomponents-test
+427188:46 org.pgpainless:pgpainless-core
+427235:46 com.google.firebase:firebase-encoders-proto
+427282:47 com.google.android.gms:play-services-tagmanager-v4-impl
+427330:46 androidx.activity:activity-ktx
+427377:47 com.google.android.gms:play-services-auth-api-phone
+427425:47 com.google.code.gson:gson
+427473:47 com.squareup.leakcanary:leakcanary-object-watcher
+427521:46 com.google.firebase:firebase-messaging
+427568:54 com.facebook.stetho:stetho-okhttp3
+427623:46 org.igniterealtime.smack:smack-sasl-provided
+427670:47 com.google.android.gms:play-services-measurement-api
+427718:46 androidx.room:room-ktx
+427765:46 com.google.firebase:firebase-crashlytics
+427812:11361 Tape
+439174:46 org.jetbrains.kotlin:kotlin-parcelize-runtime
+439221:50 io.sentry:sentry
+439272:43 org.hamcrest:hamcrest-library
+439316:46 androidx.room:room-rxjava2
+439363:47 com.squareup.leakcanary:shark-graph
+439411:47 com.google.android.gms:play-services-analytics-impl
+439459:71 xpp3:xpp3_min Indiana University Extreme! Lab Software License, vesion 1.1.1
+439531:48 xpp3:xpp3_min Public Domain
+439580:46 androidx.lifecycle:lifecycle-viewmodel-savedstate
+439627:46 com.squareup.okhttp3:logging-interceptor
+439674:47 com.google.dagger:dagger-lint-aar
+439722:46 com.google.firebase:firebase-sessions
+439769:46 androidx.transition:transition
+439816:46 androidx.drawerlayout:drawerlayout
+439863:46 androidx.collection:collection
+439910:46 androidx.constraintlayout:constraintlayout
+439957:46 androidx.test:rules
+440004:46 androidx.datastore:datastore-core
+440051:46 org.ccil.cowan.tagsoup:tagsoup
+440098:47 com.squareup.leakcanary:shark-log
+440146:46 com.google.android.datatransport:transport-backend-cct
+440193:41 com.appsflyer:af-android-sdk
+440235:70 com.facebook.android:facebook-applinks
+440306:47 com.google.firebase:firebase-auth
+440354:11358 Conscrypt
+451713:11358 Dagger
+463072:11358 Gson
+474431:11358 android_build
+485790:9116 java_annotations
+494907:11357 mobiledatadownload
+506265:9217 p2putils
+515483:11358 rxjava2
+526842:46 androidx.exifinterface:exifinterface
+526889:46 androidx.activity:activity
+526936:46 org.minidns:minidns-android21
+526983:47 com.google.android.gms:play-services-base
+527031:46 com.leanplum:leanplum-fcm
+527078:46 io.reactivex.rxjava2:rxandroid
+527125:47 com.google.android.gms:play-services-location
+527173:46 com.google.android.material:material
+527220:46 androidx.legacy:legacy-support-core-ui
+527267:46 com.squareup.okhttp3:okhttp
+527314:46 androidx.asynclayoutinflater:asynclayoutinflater
+527361:47 com.squareup.leakcanary:leakcanary-android
+527409:46 com.uber.autodispose:autodispose-android
+527456:46 com.google.android.datatransport:transport-runtime
+527503:46 com.squareup:javawriter
+527550:46 com.squareup.picasso:picasso
+527597:46 com.squareup.okio:okio-jvm
+527644:35 com.github.MatrixDev.Roomigrant:RoomigrantLib
+527680:47 pl.allegro.mobile:json-logic-operations-stdlib-jvm
+527728:47 io.coil-kt:coil-base
+527776:47 com.squareup.leakcanary:plumber-android-core
+527824:46 androidx.camera:camera-lifecycle
+527871:42 com.google.mlkit:vision-interfaces
+527914:46 androidx.lifecycle:lifecycle-common-java8
+527961:47 com.squareup.moshi:moshi
+528009:46 com.github.bumptech.glide:annotations Simplified BSD License
+528056:46 com.github.bumptech.glide:annotations The Apache Software License, Version 2.0
+528103:42 com.google.mlkit:common
+528146:42 com.google.mlkit:barcode-scanning-common
+528189:46 androidx.camera:camera-camera2
+528236:46 androidx.camera:camera-core The Apache Software License, Version 2.0
+528283:81 androidx.camera:camera-core BSD License
+528365:46 com.squareup.retrofit2:converter-moshi
+528412:46 com.caverock:androidsvg-aar
+528459:47 pl.allegro.mobile:json-logic-core-jvm
+528507:46 com.squareup.workflow1:workflow-ui-container-android
+528554:46 androidx.resourceinspection:resourceinspection-annotation
+528601:46 com.github.bumptech.glide:okhttp3-integration Simplified BSD License
+528648:46 com.github.bumptech.glide:okhttp3-integration The Apache Software License, Version 2.0
+528695:42 com.google.mlkit:vision-common
+528738:42 com.google.android.gms:play-services-mlkit-text-recognition-common
+528781:16008 Android SDK
+544790:10695 AndroidX activity library
+555486:10695 AndroidX annotation library
+566182:10695 AndroidX asynclayoutinflater library
+576878:10695 AndroidX collection jvm library
+587574:10695 AndroidX concurrent futures library
+598270:10695 AndroidX coordinatorlayout library
+608966:10695 AndroidX core ktx library
+619662:10695 AndroidX core library
+630358:10695 AndroidX cursoradapter library
+641054:10695 AndroidX customview library
+651750:10695 AndroidX documentfile library
+662446:10695 AndroidX drawerlayout library
+673142:10695 AndroidX exifinterface library
+683838:10695 AndroidX fragment library
+694534:10693 AndroidX interpolator library
+705228:10695 AndroidX legacy coreui library
+715924:10695 AndroidX legacy coreutils library
+726620:10695 AndroidX legacy v4 library
+737316:10694 AndroidX lifecycle viewmodel library
+748011:10693 AndroidX lifecycle viewmodel savedstate library
+758705:10695 AndroidX loader library
+769401:10693 AndroidX localbroadcastmanager library
+780095:10695 AndroidX media base library
+790791:10695 AndroidX print library
+801487:10689 AndroidX savedstate library
+812177:10695 AndroidX swiperefreshlayout library
+822873:10695 AndroidX versionedparcelable library
+833569:10695 AndroidX viewpager library
+844265:11419 TensorFlow Lite Support
+855685:46 com.github.bumptech.glide:disklrucache Simplified BSD License
+855732:46 com.github.bumptech.glide:disklrucache The Apache Software License, Version 2.0
+855779:47 pl.allegro.mobile:json-logic-operations-api-jvm
+855827:46 com.clevertap.android:clevertap-android-sdk
+855874:47 io.coil-kt:coil
+855922:47 io.coil-kt:coil-svg
+855970:56 org.json:json
+856027:46 androidx.customview:customview-poolingcontainer
+856074:46 com.squareup.workflow1:workflow-core-jvm
+856121:46 androidx.security:security-crypto
+856168:0 org.mockito.kotlin:mockito-kotlin
+856169:46 androidx.profileinstaller:profileinstaller
+856216:46 com.squareup.curtains:curtains
+856263:47 com.squareup.leakcanary:plumber-android
+856311:46 com.google.crypto.tink:tink-android
+856358:46 com.squareup.workflow1:workflow-ui-core-common-jvm
+856405:46 androidx.emoji2:emoji2-views-helper
+856452:46 androidx.tracing:tracing
+856499:46 androidx.camera:camera-view
+856546:47 com.google.android.odml:image
+856594:46 com.squareup.workflow1:workflow-runtime-jvm
+856641:46 com.github.bumptech.glide:gifdecoder Simplified BSD License
+856688:46 com.github.bumptech.glide:gifdecoder The Apache Software License, Version 2.0
+856735:46 com.squareup.workflow1:workflow-ui-container-common-jvm
+856782:42 com.google.android.gms:play-services-mlkit-barcode-scanning
+856825:16008 Android SDK Platforms
+872834:10691 AndroidX annotation jvm library
+883526:42 com.google.android.gms:play-services-mlkit-face-detection
+883569:46 androidx.camera:camera-video
+883616:47 com.google.android.gms:play-services-appset
+883664:46 androidx.autofill:autofill
+883711:46 com.github.bumptech.glide:glide Simplified BSD License
+883758:46 com.github.bumptech.glide:glide The Apache Software License, Version 2.0
+883805:42 com.google.android.gms:play-services-mlkit-text-recognition
+883848:46 androidx.emoji2:emoji2
+883895:46 com.squareup.workflow1:workflow-ui-core-android
+883942:46 androidx.constraintlayout:constraintlayout-core
+883989:47 pl.allegro.mobile:utils-jvm
+884037:47 com.squareup.moshi:moshi-adapters
+884085:46 io.noties.markwon:core
+884132:46 com.almworks.sqlite4java:sqlite4java
+884179:35 org.robolectric:nativeruntime
+884215:35 org.robolectric:shadows-multidex
+884251:31 org.ow2.asm:asm-util
+884283:31 org.ow2.asm:asm-tree
+884315:47 org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm
+884363:31 org.ow2.asm:asm-commons
+884395:68 com.ibm.icu:icu4j
+884464:35 org.robolectric:shadows-framework
+884500:34 org.checkerframework:checker-qual
+884535:31 org.ow2.asm:asm
+884567:35 org.robolectric:pluginapi
+884603:35 org.robolectric:plugins-maven-dependency-resolver
+884639:46 com.google.j2objc:j2objc-annotations
+884686:35 org.robolectric:sandbox
+884722:35 org.robolectric:resources
+884758:35 org.robolectric:shadowapi
+884794:35 org.robolectric:annotations
+884830:35 org.robolectric:utils
+884866:52 org.mockito:mockito-inline
+884919:35 org.robolectric:utils-reflector
+884955:35 org.robolectric:robolectric
+884991:46 androidx.test:annotation
+885038:31 org.ow2.asm:asm-analysis
+885070:35 org.robolectric:junit
+885106:62 javax.annotation:javax.annotation-api
+885169:46 com.squareup.okio:okio-metadata

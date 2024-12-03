@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/profile_placeholder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:layout_gravity="bottom" android:id="@+id/like_pass_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_med" layout="@layout/like_pass_buttons_center_dls"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/loader" android:visibility="gone" android:layout_width="@dimen/spacer_5" android:layout_height="@dimen/spacer_5" android:indeterminateTint="@color/main_color"/>
+</FrameLayout>

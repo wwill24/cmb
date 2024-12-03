@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.shop.shop.adapter.error.ShopErrorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:padding="@dimen/baseline_6x" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@style/bold_dark_500"/>
+    <TextView android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/baseline_1x" android:textAlignment="center" style="@style/regular_dark_300"/>
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/cta" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_1x" android:text="@string/bean_shop_play_missing_cta" style="@style/main_button"/>
+</com.coffeemeetsbagel.shop.shop.adapter.error.ShopErrorView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/footer_height_my_profile_photos">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="@dimen/text_large" android:textColor="@color/old_gray" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_reorder_explanation_margin" android:text="@string/photo_reorder_explanation" android:layout_centerHorizontal="true" app:customFont="@string/font_medium"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.cmb_views.CmbLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:padding="@dimen/spacer_2" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="@style/medium_main_300"/>
+</com.coffeemeetsbagel.cmb_views.CmbLinearLayout>

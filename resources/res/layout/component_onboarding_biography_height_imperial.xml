@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/baseline_4x" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.new_user_experience.numberPickers.FeetHeightPicker android:theme="@style/CmbAppTheme.Widget.NumberPicker" android:id="@+id/height_picker_feet" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@+id/guideline" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5"/>
+    <com.coffeemeetsbagel.new_user_experience.numberPickers.InchesHeightPicker android:theme="@style/CmbAppTheme.Widget.NumberPicker" android:id="@+id/height_picker_inches" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/guideline" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

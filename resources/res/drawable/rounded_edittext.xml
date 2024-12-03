@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/white"/>
+    <stroke android:width="@dimen/margin_xxxxxxxxxsmall" android:color="@color/phone_number_input_grey_stroke"/>
+    <corners android:topLeftRadius="@dimen/margin_xxxsmall" android:topRightRadius="@dimen/margin_xxxsmall" android:bottomLeftRadius="@dimen/margin_xxxsmall" android:bottomRightRadius="@dimen/margin_xxxsmall"/>
+</shape>

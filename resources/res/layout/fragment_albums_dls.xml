@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/relative_layout" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/txt_no_albums" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_pics_found" android:layout_centerInParent="true" style="@style/regular_gray_400"/>
+    <LinearLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:isScrollContainer="true">
+        <ListView android:id="@+id/listview_albums" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="true" android:divider="@color/divider_color" android:dividerHeight="@dimen/one_dp"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/circular_progress_background" android:layout_centerInParent="true"/>
+</RelativeLayout>

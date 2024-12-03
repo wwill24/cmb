@@ -1,0 +1,48 @@
+package operations.logic.equals.strict;
+
+import java.util.List;
+import kotlin.jvm.functions.Function2;
+import ml.b;
+import operations.logic.equals.strict.a;
+
+public final class StrictEquals implements b, a {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final StrictEquals f33494a = new StrictEquals();
+
+    private StrictEquals() {
+    }
+
+    public Object a(Object obj) {
+        return a.C0385a.f(this, obj);
+    }
+
+    public boolean b(List<? extends Object> list, Function2<? super Integer, ? super Integer, Boolean> function2) {
+        return a.C0385a.b(this, list, function2);
+    }
+
+    public Boolean c(Object obj) {
+        return a.C0385a.g(this, obj);
+    }
+
+    public List<Comparable<?>> d(Comparable<?> comparable, Comparable<?> comparable2) {
+        return a.C0385a.d(this, comparable, comparable2);
+    }
+
+    public Object e(Object obj) {
+        return a.C0385a.e(this, obj);
+    }
+
+    public List<Comparable<?>> g(Comparable<?> comparable, Comparable<?> comparable2) {
+        return a.C0385a.c(this, comparable, comparable2);
+    }
+
+    public boolean h(Object obj, Function2<? super Integer, ? super Integer, Boolean> function2) {
+        return a.C0385a.a(this, obj, function2);
+    }
+
+    /* renamed from: i */
+    public Boolean f(Object obj, Object obj2) {
+        return Boolean.valueOf(h(obj, StrictEquals$evaluateLogic$1.f33495a));
+    }
+}

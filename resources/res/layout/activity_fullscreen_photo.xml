@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/photo_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/send_button" android:background="@drawable/dot_blue" android:padding="@dimen/margin_med" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_med" android:src="@drawable/icon_top_send" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:tint="@color/white"/>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/spacer_2" android:paddingRight="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:paddingTop="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacer_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_profile_preference_agerange_label" style="@style/regular_gray_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/customTextView_my_profile_preference_agerange_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/eighteen_to_sixty" style="@style/medium_dark_400"/>
+        </LinearLayout>
+        <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_age" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:tickEnd="@integer/max_age" app:tickStart="@integer/min_age" style="@style/rangebar_dls"/>
+    </FrameLayout>
+    <FrameLayout android:paddingTop="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacer_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height_range" style="@style/regular_gray_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/textView_height_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/height_range_default" style="@style/medium_dark_400"/>
+        </LinearLayout>
+        <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_height" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:tickEnd="@integer/max_height_centimeters" app:tickStart="@integer/min_height_centimeters" style="@style/rangebar_dls"/>
+    </FrameLayout>
+    <FrameLayout android:paddingTop="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:paddingBottom="@dimen/spacer_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_profile_preference_matchradius_label" style="@style/regular_gray_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/customTextView_my_profile_preference_matchradius_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/distance_default" style="@style/medium_dark_400"/>
+        </LinearLayout>
+        <com.appyvet.rangebar.RangeBar android:layout_gravity="bottom" android:id="@+id/rangebar_distance" android:layout_width="match_parent" android:layout_height="@dimen/range_bar_height" app:rangeBar="false" app:tickEnd="7" app:tickStart="0" style="@style/rangebar_with_ticks_dls"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/spacer_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="@dimen/zero_dp" android:layout_height="wrap_content" android:text="@string/label_degree" android:layout_weight="1" style="@style/regular_gray_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_degree" android:layout_width="@dimen/zero_dp" android:layout_height="wrap_content" android:layout_weight="3" style="@style/edit_text_profile_preferences_dls"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/spacer_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="@dimen/zero_dp" android:layout_height="wrap_content" android:text="@string/my_profile_preference_advanced_ethnicity_label" android:layout_weight="1" style="@style/regular_gray_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_ethnicity" android:layout_width="@dimen/zero_dp" android:layout_height="wrap_content" android:layout_weight="3" style="@style/edit_text_profile_preferences_dls"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_active_filters" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/regular_gray_400"/>
+        <CheckBox android:id="@+id/checkbox_last_active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:buttonTint="@color/gray_dark"/>
+    </RelativeLayout>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="@dimen/text_med" android:textColor="@color/dark_gray" android:id="@+id/discover_search_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2"/>
+</LinearLayout>

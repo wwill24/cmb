@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/height_row_view_album">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:shimmer_auto_start="false" app:shimmer_duration="1100">
+        <ImageView android:id="@+id/imageView_thumbnail_album" android:layout_width="@dimen/height_row_view_album" android:layout_height="@dimen/height_row_view_album" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_album" android:layout_toRightOf="@+id/shimmer_view_container" android:layout_centerVertical="true">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="@dimen/text_med" android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/text_albumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_xxxxxxxxsmall" android:text="@string/items" android:maxLines="1" app:customFont="@string/font_regular"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="@dimen/text_small" android:textColor="@color/old_gray" android:id="@+id/subtext_albumCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="count" android:layout_alignLeft="@+id/text_albumName" app:customFont="@string/font_regular"/>
+    </LinearLayout>
+</RelativeLayout>

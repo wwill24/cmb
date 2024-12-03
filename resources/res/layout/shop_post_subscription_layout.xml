@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout_subscriptions" android:background="@drawable/purchased_subscription_gradient" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_4" android:layout_marginBottom="@dimen/spacer_2" android:text="@string/subscription_includes" style="@style/medium_white_400"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/premium_features" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_2"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:enabled="true" android:layout_gravity="center_horizontal" android:id="@+id/subscription_renewal_date" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_3" android:text="@string/subscription_has_no_expiry_date" style="@style/regular_white_200"/>
+        <com.coffeemeetsbagel.cmb_views.CmbButton android:textSize="16sp" android:gravity="center" android:id="@+id/upgrade_subscription_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="51dp" android:text="@string/upgrade_now" style="@style/secondary_button"/>
+    </LinearLayout>
+</merge>

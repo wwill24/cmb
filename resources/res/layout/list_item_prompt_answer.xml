@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="2dp" app:cardCornerRadius="16dp" app:cardElevation="2dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="32dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="32dp" android:paddingEnd="16dp">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/main_color" android:id="@+id/question" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:textSize="24sp" android:textColor="@color/dark_gray" android:id="@+id/answer" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/question"/>
+        <ImageView android:id="@+id/edit_answer_cta" android:paddingTop="0dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_edit_fill" android:scaleType="centerInside" android:paddingStart="0dp" android:paddingEnd="0dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toBottomOf="@+id/answer" app:tint="@color/divider_color"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

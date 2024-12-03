@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_selector_radius"/>
+            <solid android:color="@color/light_gray"/>
+            <size android:height="@dimen/button_selector_size" android:width="@dimen/button_selector_size"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_selector_radius"/>
+            <solid android:color="@color/main_dark_color"/>
+            <size android:height="@dimen/button_selector_size" android:width="@dimen/button_selector_size"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_selector_radius"/>
+            <solid android:color="@color/main_color"/>
+            <size android:height="@dimen/button_selector_size" android:width="@dimen/button_selector_size"/>
+        </shape>
+    </item>
+</selector>

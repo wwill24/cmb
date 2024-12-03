@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/text_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="@string/onboarding_biography_job_title_hint" android:singleLine="true" android:maxLength="@integer/max_name_characters" android:inputType="text" style="@style/onboarding_text_input"/>
+</LinearLayout>

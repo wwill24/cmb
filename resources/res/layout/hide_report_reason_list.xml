@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="0dp" android:paddingStart="@dimen/spacer_2" android:paddingEnd="@dimen/spacer_2" app:layout_constraintBottom_toTopOf="@+id/footer_container" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2" android:text="@string/hide_report_header" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/regular_gray_300"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/reason_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/hide_disclaimer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2" app:layout_constraintTop_toBottomOf="@+id/reason_list">
+                <ImageView android:layout_gravity="center" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circle_with_exclamation_mark"/>
+                <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hide_footer_disclaimer" android:maxLines="2" android:layout_marginStart="10dp" style="@style/regular_gray_200"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:orientation="vertical" android:id="@+id/footer_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp" app:layout_constraintBottom_toBottomOf="0">
+        <com.coffeemeetsbagel.cmb_views.CmbButton android:textSize="16sp" android:gravity="center" android:id="@+id/cta_primary" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_2" android:text="@string/continue_lc" style="@style/main_button"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

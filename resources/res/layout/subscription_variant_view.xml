@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:enabled="false" android:gravity="center" android:id="@+id/subscription_duration_popular" android:background="@drawable/top_corners_rounded_solid_purple" android:visibility="invisible" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/medium_white_400"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/subscription_duration_selector_container" android:background="@drawable/subscription_duration_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/baseline_1x" android:paddingEnd="@dimen/baseline_1x">
+        <Space android:id="@+id/subscription_duration_top_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_duration_duration" android:paddingTop="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/medium_dark_400"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_duration_total_cost" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/regular_main_300"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_duration_monthly_cost" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/medium_dark_300"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_duration_save" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/medium_accent_300"/>
+        <Space android:id="@+id/subscription_duration_bottom_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/one_dp"/>
+    </LinearLayout>
+</merge>

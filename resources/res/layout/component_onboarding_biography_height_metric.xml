@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coffeemeetsbagel.new_user_experience.numberPickers.CentimeterHeightPicker xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/CmbAppTheme.Widget.NumberPicker" android:id="@+id/height_picker_centimetres" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:layout_marginStart="@dimen/spacer_4" android:layout_marginEnd="@dimen/spacer_4"/>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bean_shop_acquired_sufficient_beans">
+        <item quantity="one">Success! You earned %d Bean!</item>
+        <item quantity="two">Success! You earned %d Beans!</item>
+        <item quantity="few">Success! You earned %d Beans!</item>
+        <item quantity="many">Success! You earned %d Beans!</item>
+        <item quantity="other">Success! You earned %d Beans!</item>
+    </plurals>
+    <plurals name="bean_shop_buy_success">
+        <item quantity="one">Adding %d Bean to your account…</item>
+        <item quantity="two">Adding %d Beans to your account…</item>
+        <item quantity="few">Adding %d Beans to your account…</item>
+        <item quantity="many">Adding %d Beans to your account…</item>
+        <item quantity="other">Adding %d Beans to your account…</item>
+    </plurals>
+    <plurals name="bean_shop_still_need_beans">
+        <item quantity="one">Success! You earned %d Bean, but you still need more to complete transaction.</item>
+        <item quantity="two">Success! You earned %d Beans, but you still need more to complete transaction.</item>
+        <item quantity="few">Success! You earned %d Beans, but you still need more to complete transaction.</item>
+        <item quantity="many">Success! You earned %d Beans, but you still need more to complete transaction.</item>
+        <item quantity="other">Success! You earned %d Beans, but you still need more to complete transaction.</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="zero">%d DAYS AGO</item>
+        <item quantity="one">%d DAY AGO</item>
+        <item quantity="two">%d DAYS AGO</item>
+        <item quantity="few">%d DAYS AGO</item>
+        <item quantity="many">%d DAYS AGO</item>
+        <item quantity="other">%d DAYS AGO</item>
+    </plurals>
+    <plurals name="dialog_confirm_free_discover_like">
+        <item quantity="zero">You have %d free Discover Likes available. Send one now?</item>
+        <item quantity="one">You have %d free Discover Like available. Send it now?</item>
+        <item quantity="two">You have %d free Discover Likes available. Send one now?</item>
+        <item quantity="few">You have %d free Discover Likes available. Send one now?</item>
+        <item quantity="many">You have %d free Discover Likes available. Send one now?</item>
+        <item quantity="other">You have %d free Discover Likes available. Send one now?</item>
+    </plurals>
+    <plurals name="he_sent_you_flower">
+        <item quantity="zero">He didn&apos;t send you any flowers :-(</item>
+        <item quantity="one">He sent you a flower!</item>
+        <item quantity="other">He sent you %d flowers!</item>
+    </plurals>
+    <plurals name="many_chats">
+        <item quantity="zero">%d+</item>
+        <item quantity="one">%d+</item>
+        <item quantity="two">%d+</item>
+        <item quantity="few">%d+</item>
+        <item quantity="many">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="zero">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="n_items_left">
+        <item quantity="zero">%d left</item>
+        <item quantity="one">%d left</item>
+        <item quantity="two">%d left</item>
+        <item quantity="few">%d left</item>
+        <item quantity="many">%d left</item>
+        <item quantity="other">%d left</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="zero">%d mins</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d mins</item>
+        <item quantity="few">%d mins</item>
+        <item quantity="many">%d mins</item>
+        <item quantity="other">%d mins</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="zero">%d photos</item>
+        <item quantity="one">%d photo</item>
+        <item quantity="two">%d photos</item>
+        <item quantity="few">%d photos</item>
+        <item quantity="many">%d photos</item>
+        <item quantity="other">%d photos</item>
+    </plurals>
+    <plurals name="she_sent_you_flower">
+        <item quantity="zero">She didn&apos;t send you any flowers :-(</item>
+        <item quantity="one">She sent you a flower!</item>
+        <item quantity="other">She sent you %d flowers!</item>
+    </plurals>
+    <plurals name="social_media_success">
+        <item quantity="one">Success!\10You earned %d Bean!</item>
+        <item quantity="two">Success!\10You earned %d Beans!</item>
+        <item quantity="few">Success!\10You earned %d Beans!</item>
+        <item quantity="many">Success!\10You earned %d Beans!</item>
+        <item quantity="other">Success!\10You earned %d Beans!</item>
+    </plurals>
+    <plurals name="subscription_billing_cycle">
+        <item quantity="zero">Billed every %d mo</item>
+        <item quantity="one">Billed monthly</item>
+        <item quantity="few">Billed every %d mo</item>
+        <item quantity="many">Billed every %d mo</item>
+        <item quantity="other">Billed every %d mo</item>
+    </plurals>
+    <plurals name="subscription_billing_cycle_2">
+        <item quantity="zero">every %d mo.</item>
+        <item quantity="one">every mo.</item>
+        <item quantity="few">every %d mo.</item>
+        <item quantity="many">every %d mo.</item>
+        <item quantity="other">every %d mo.</item>
+    </plurals>
+    <plurals name="they_sent_you_flower">
+        <item quantity="zero">They didn&apos;t send you any flowers :-(</item>
+        <item quantity="one">They sent you a flower!</item>
+        <item quantity="other">They sent you %d flowers!</item>
+    </plurals>
+    <plurals name="use_n_beans_to_reopen">
+        <item quantity="zero">Would you like to use %d Beans to extend this chat for 30 days?</item>
+        <item quantity="one">Would you like to use %d Bean to extend this chat for 30 days?</item>
+        <item quantity="two">Would you like to use %d Beans to extend this chat for 30 days?</item>
+        <item quantity="few">Would you like to use %d Beans to extend this chat for 30 days?</item>
+        <item quantity="many">Would you like to use %d Beans to extend this chat for 30 days?</item>
+        <item quantity="other">Would you like to use %d Beans to extend this chat for 30 days?</item>
+    </plurals>
+    <plurals name="x_kms">
+        <item quantity="zero">%d km</item>
+        <item quantity="one">%d km</item>
+        <item quantity="two">%d km</item>
+        <item quantity="few">%d km</item>
+        <item quantity="many">%d km</item>
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="x_miles">
+        <item quantity="zero">%d miles</item>
+        <item quantity="one">%d mile</item>
+        <item quantity="two">%d miles</item>
+        <item quantity="few">%d miles</item>
+        <item quantity="many">%d miles</item>
+        <item quantity="other">%d miles</item>
+    </plurals>
+</resources>

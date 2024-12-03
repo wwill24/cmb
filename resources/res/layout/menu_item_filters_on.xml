@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/baseline_6x" android:layout_height="@dimen/baseline_6x">
+    <ImageView android:id="@+id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_discoverfilter"/>
+    <FrameLayout android:layout_width="@dimen/filters_badge_length" android:layout_height="@dimen/filters_badge_length" android:layout_marginTop="@dimen/margin_xxsmall" android:layout_marginRight="@dimen/filters_badge_right_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/filters_badge_length" android:layout_height="@dimen/filters_badge_length" app:srcCompat="@drawable/ic_badge"/>
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/filters_badge_arrow_length" android:layout_height="@dimen/filters_badge_arrow_length" app:srcCompat="@drawable/ic_done_white"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="@dimen/spacer_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/support" style="@style/bold_dark_400"/>
+    <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center_vertical" android:id="@+id/clickable_text_help" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/help" style="@style/regular_dark_400"/>
+    <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.coffeemeetsbagel.cmb_views.CmbTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/units" style="@style/bold_dark_400"/>
+    <LinearLayout android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_3" style="@style/bimodal_selector_dls">
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_metric" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/metric" android:layout_weight="1" style="@style/bimodal_selector_item_dls"/>
+        <com.coffeemeetsbagel.cmb_views.CmbTextView android:id="@+id/textView_imperial" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/imperial" android:layout_weight="1" style="@style/bimodal_selector_item_dls"/>
+    </LinearLayout>
+</LinearLayout>

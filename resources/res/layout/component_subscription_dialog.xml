@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/baseline_1x" android:paddingBottom="@dimen/baseline_2x" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/benefits_carousel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_1x"/>
+            <FrameLayout android:id="@+id/variants_carousel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_1x"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/subscription_cta" android:background="@drawable/primary_button_background_dls" android:padding="@dimen/baseline_1x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_1x" android:text="@string/subscribe" style="@style/bold_white_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/buy_more_beans" android:background="@drawable/gray_button_background_dls" android:paddingTop="@dimen/spacer_1" android:paddingBottom="@dimen/spacer_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/buy_more_beans_button_text" android:layout_marginStart="@dimen/baseline_1x" android:layout_marginEnd="@dimen/baseline_1x" style="@style/bold_main_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/cancel_cta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_1x" android:text="@string/not_now" style="@style/regular_gray_400"/>
+            <com.coffeemeetsbagel.cmb_views.CmbTextView android:gravity="center" android:id="@+id/disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/baseline_2x" android:text="@string/premium_disclaimer"/>
+            <TextView android:gravity="center" android:id="@+id/debug_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/debug_text"/>
+        </LinearLayout>
+    </ScrollView>
+</merge>
